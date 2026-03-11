@@ -7,8 +7,7 @@ class MovieDetailPage extends StatelessWidget {
 
   const MovieDetailPage({super.key, required this.movie});
 
-  // HAPUS baris ini:
-  // get context => null;
+ 
 
   @override
   Widget build(BuildContext context) {
@@ -128,7 +127,6 @@ class MovieDetailPage extends StatelessWidget {
                   Center(
                     child: ElevatedButton.icon(
                       onPressed: () async {
-                        // Panggil fungsi dengan context yang benar
                         final Uri url = Uri.parse(movie.movieUrl);
                         try {
                           if (!await launchUrl(
