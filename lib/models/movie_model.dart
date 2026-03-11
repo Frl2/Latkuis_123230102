@@ -20,45 +20,50 @@ class MovieModel {
     required this.imgUrl,
     required this.movieUrl,
   });
+
+  String? get wikipediaUrl => null;
 }
 
 List<MovieModel> movieList = [
   MovieModel(
-      title: "Inception",
-      year: 2010,
-      genre: "Sci-Fi",
-      director: "Christopher Nolan",
-      casts: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
-      rating: 8.8,
-      synopsis:
-          "A skilled thief who specializes in corporate espionage is given a final job that could grant him redemption: to plant an idea deep within a target's subconscious. As his team delves into the dream world, reality and illusion blur, making the mission increasingly dangerous.",
-      imgUrl:
-          "https://m.media-amazon.com/images/M/MV5BMTM0MjUzNjkwMl5BMl5BanBnXkFtZTcwNjY0OTk1Mw@@._V1_.jpg",
-      movieUrl: "https://en.wikipedia.org/wiki/Inception"),
+    title: "Inception",
+    year: 2010,
+    genre: "Sci-Fi",
+    director: "Christopher Nolan",
+    casts: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+    rating: 8.8,
+    synopsis:
+        "A skilled thief who specializes in corporate espionage is given a final job that could grant him redemption: to plant an idea deep within a target's subconscious. As his team delves into the dream world, reality and illusion blur, making the mission increasingly dangerous.",
+    imgUrl:
+        "https://m.media-amazon.com/images/M/MV5BMTM0MjUzNjkwMl5BMl5BanBnXkFtZTcwNjY0OTk1Mw@@._V1_.jpg",
+    movieUrl: "https://en.wikipedia.org/wiki/Inception",
+  ),
   MovieModel(
-      title: "The Shawshank Redemption",
-      year: 1994,
-      genre: "Drama",
-      director: "Frank Darabont",
-      casts: ["Tim Robbins", "Morgan Freeman"],
-      rating: 9.3,
-      synopsis:
-          "Andy Dufresne, a banker wrongly convicted of murder, is sentenced to life in Shawshank prison. Over the years, he befriends fellow inmate Red and earns the trust of the warden, using his skills to help manage prison finances. But Andy has a secret plan that could lead to freedom.",
-      imgUrl:
-          "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg",
-      movieUrl: "https://en.wikipedia.org/wiki/The_Shawshank_Redemption"),
+    title: "The Shawshank Redemption",
+    year: 1994,
+    genre: "Drama",
+    director: "Frank Darabont",
+    casts: ["Tim Robbins", "Morgan Freeman"],
+    rating: 9.3,
+    synopsis:
+        "Andy Dufresne, a banker wrongly convicted of murder, is sentenced to life in Shawshank prison. Over the years, he befriends fellow inmate Red and earns the trust of the warden, using his skills to help manage prison finances. But Andy has a secret plan that could lead to freedom.",
+    imgUrl:
+        "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg",
+    movieUrl: "https://en.wikipedia.org/wiki/The_Shawshank_Redemption",
+  ),
   MovieModel(
-      title: "Interstellar",
-      year: 2014,
-      genre: "Sci-Fi",
-      director: "Christopher Nolan",
-      casts: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
-      rating: 8.6,
-      synopsis:
-          "In a dystopian future where Earth is slowly becoming uninhabitable, a group of astronauts embarks on a mission through a wormhole in search of a new home for humanity. As they travel through space and time, they face unimaginable challenges, including love, loss, and the nature of human survival.",
-      imgUrl:
-          "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-      movieUrl: "https://en.wikipedia.org/wiki/Interstellar_(film)"),
+    title: "Interstellar",
+    year: 2014,
+    genre: "Sci-Fi",
+    director: "Christopher Nolan",
+    casts: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    rating: 8.6,
+    synopsis:
+        "In a dystopian future where Earth is slowly becoming uninhabitable, a group of astronauts embarks on a mission through a wormhole in search of a new home for humanity. As they travel through space and time, they face unimaginable challenges, including love, loss, and the nature of human survival.",
+    imgUrl:
+        "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    movieUrl: "https://en.wikipedia.org/wiki/Interstellar_(film)",
+  ),
   MovieModel(
     title: "The Dark Knight",
     year: 2008,
